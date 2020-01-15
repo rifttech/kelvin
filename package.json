@@ -1,0 +1,21 @@
+{
+  "name": "kelvin",
+  "private": true,
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/rifttech/kelvin.git",
+  "author": "rifttech <rifttech.arthur@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  },
+  "scripts": {
+    "bootstrap":"lerna bootstrap",
+    "story": "lerna run story --stream",
+    "prestart": "lerna run libbuild --stream",
+    "start": "lerna run start --stream"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

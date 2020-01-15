@@ -1,0 +1,27 @@
+{
+  "name": "@rifttech/kelvin-core",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./lib-esm/index.js",
+  "types": "./lib/index.d.ts",
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "scripts": {
+    "story": "start-storybook",
+    "libbuild": "tsc && tsc --build tsconfig.esm.json"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@storybook/react": "^5.3.3",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.2",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^1.1.2",
+    "typescript": "^3.7.4"
+  }
+}
