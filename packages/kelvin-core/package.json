@@ -11,17 +11,24 @@
   },
   "scripts": {
     "story": "start-storybook",
-    "libbuild": "tsc && tsc --build tsconfig.esm.json"
+    "libbuild": "tsc && tsc --build tsconfig.esm.json",
+    "test": "jest"
   },
   "devDependencies": {
     "@babel/core": "^7.8.3",
+    "@babel/preset-typescript": "^7.8.3",
     "@storybook/react": "^5.3.3",
+    "@types/jest": "^24.9.0",
     "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.0.6",
+    "jest": "^24.9.0",
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.2",
     "source-map-loader": "^0.2.4",
     "style-loader": "^1.1.2",
+    "ts-jest": "^24.3.0",
     "typescript": "^3.7.4"
+  },
+  "dependencies": {
   }
 }
