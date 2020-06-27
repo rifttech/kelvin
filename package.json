@@ -10,7 +10,7 @@
     "lerna": "^3.20.2"
   },
   "scripts": {
-    "bootstrap":"lerna bootstrap",
+    "bootstrap": "lerna bootstrap",
     "story": "lerna run story --stream",
     "prestart": "lerna run libbuild --stream",
     "start": "lerna run start --stream"
